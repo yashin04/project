@@ -1,0 +1,62 @@
+.order-now {
+    background-color: black;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: whi;
+  }
+  
+  .order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  /* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('signup.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input[type="number"],
+  select {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: 1px solid #ccc;
+  }
+  
+  .order-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-btn:hover {
+    background-color: #555;
+  }
+  
